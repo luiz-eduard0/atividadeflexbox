@@ -1,0 +1,91 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    align-items: start;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.container2 {
+    align-items: end;
+    justify-content: flex-end;
+    display: flex;
+}
+    
+
+
+.container3 {
+   align-items: center;
+justify-content: center;
+    display: flex;
+}
+   
+
+
+.container4 {   align-items: center;
+  justify-content: space-between;
+    display: flex;
+}
+.container5 {    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    
+    
+}
+.container6 {  align-items: center;
+    justify-content: space-evenly;
+        display: flex;
+
+}
+
+.containerexerciciob{
+flex-direction: column-reverse;
+justify-content: center;
+display: flex;
+
+}
+
+.containerdesafio{
+
+
+    flex-direction: row-reverse;
+    justify-content: start;
+    display: flex;
+
+
+}
